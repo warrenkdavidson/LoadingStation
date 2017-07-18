@@ -1,0 +1,21 @@
+// Turn On Laravel
+sudo a2dissite 000-default.conf
+sudo a2dissite loadStation.conf
+sudo a2ensite laravel.conf
+sudo a2enmod rewrite
+sudo service apache2 restart
+
+
+// Turn Off Laravel
+sudo a2ensite 000-default.conf
+sudo a2ensite loadStation.conf
+sudo a2dissite laravel.conf
+sudo a2dismod rewrite
+sudo service apache2 restart
+
+
+
+sudo service apache2 reload
+
+// Give permissions to folders
+chmod -R 775 /var/www/laravel/storage

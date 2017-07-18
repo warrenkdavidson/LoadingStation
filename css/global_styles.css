@@ -1,0 +1,26 @@
+.DashboardContainer { 
+	position: absolute;
+	left: 5px;
+	top: 15px;
+	border-width: 15px;
+	border-color: blue; 
+	border-style:solid;
+	border-radius: 25px;
+}
+
+.DashboardContent { 
+	float: left;
+	border-width: 15px;
+	border-color: #efefef; 
+	border-style:solid;
+	border-radius: 25px;
+}
+
+.MessageBox { 
+	float: left;
+}
+
+.MessageBoxContent { 
+	float: left;
+
+}

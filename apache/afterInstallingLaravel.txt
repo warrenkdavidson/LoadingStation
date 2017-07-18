@@ -1,0 +1,2 @@
+sudo chgrp -R www-data /var/www/html/QuantumLoadingStation
+sudo chmod -R 775 /var/www/html/QuantumLoadingStation/storage

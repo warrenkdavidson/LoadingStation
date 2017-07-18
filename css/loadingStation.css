@@ -1,0 +1,208 @@
+	.siteTitle {font-family: Arial, Helvetica, sans-serif; font-size:20; font-weight:900; background-color:#E0E0F8; color:black; padding-top: 5px; margin-top:0px; margin-bottom:0px; width:800px }
+	.welcomeUser {font-size:20; font-weight:900; background-color:#E0E0F8; color:black;}	
+	.pageTitle {font-family: Arial, Helvetica, sans-serif; font-sizeJobLabel:30; font-weight:30; color:black; margin-top:0px; margin-bottom:0px}
+	.breadCrumb {font-size:30; font-weight:10; color:black; margin-top:0px; margin-bottom:5px}
+	.linksBar {font-size:20; font-weight:200; color:black; margin-top:5px; margin-bottom:5px; width:580px}
+
+
+	.formLabel {font-size:18; font-weight:bold; color:#001A66; margin-top:0px; margin-bottom:0px}
+	.formFieldLabel {font-size:16; font-weight:bold; color:#000000; margin-top:0px; margin-bottom:0px}
+	.formFieldLabel2 {font-size:16; font-weight:bold; color:#000000; margin-top:0px; margin-bottom:0px}
+	.selectHMIBackground {background-color:#DAC2FF; }
+	.selectPLCBackground {background-color:#99CCB2; }
+	.formBackground {background-color:#F2F2F2; width:600px }
+	.formBackground_adm {background-color:#A2F2B2; width:600px }
+	.formBackground_serial {background-color:#A2F2B2; width:1050px }
+	.descriptionColumn {width:400px }
+	.notesSubject {font-size:18; font-weight:bold; color:#001A66;}
+
+	.backLink {font-size:40; font-weight:30; color:black}
+	/* Table and column styles */
+	.columnTitle {font-size:25; font-weight:16; color:black; margin-top:0px}
+	.boldValue {color:black}
+	
+	.sectionHeader {font-family: Arial, Helvetica, sans-serif; font-size:20; font-weight:10; color:black; margin-top:0px; margin-bottom:0px; background-color:#E0E0F8; width:200px }
+
+	.saveButton { width: 4em;  height: 1.6em; }	
+
+	/* Start Page  */
+	.sectionWheelLoaded {font-family: Arial, Helvetica, sans-serif; font-size:20; font-weight:10; color:#ffffff; margin-top:0px; margin-bottom:0px; background-color:#7a7623; width:200px }
+
+	.sectionWheelInProcess {font-family: Arial, Helvetica, sans-serif; font-size:20; font-weight:10; color:#ffffff; margin-top:0px; margin-bottom:0px; background-color:#2d3699; width:200px }
+
+	.sectionWheelDone {font-family: Arial, Helvetica, sans-serif; font-size:20; font-weight:10; color:#ffffff; margin-top:0px; margin-bottom:0px; background-color:#417a23; width:200px }
+
+
+
+
+	.loadedWheelsFieldLabel { float: left; width:200px; font-weight:900; background-color:#626172;}
+
+	.loadedWheelsFieldValue { float: left; width:200px }
+
+
+
+
+	/* Container For All Fields */	
+	.loadedWheelsContainer { width:1000px }
+
+	/* Container For Field Labels */	
+	.fieldLabelsContainer { width:1000px; height:40px; background-color:#626172; }
+
+	/* Container For Field Labels */	
+	.fieldLabelsContainerBlack { width:1000px; height:20px; background-color:#000000; }
+	.recipeFieldLabelBlack { float: left; width:200px;  font-weight:900;  color: #FFFFFF; margin-left: 100px;}
+
+	/* Container For Row of Field Values */	
+	.rowContainerWhite { width:1000px; height:120px; background-color:#FFFFFF; }
+	.feildContainerBlack { float: left; width:305px; height:60px; border: solid; background-color:#000000;}
+	.feildJobNumber { float: left;  width:300px; height:15px; font-weight:900;  color: #FFFFFF; }
+	.feildFixture { 
+		float: left; 
+		width:81px;
+		padding-left: 40px; 
+		height:50px; 
+		text-align: center;
+		font-weight:900; 
+		color: #000000; 
+		background-image: url('../../img/smallFixture.jpg'); 
+		background-repeat: no-repeat;
+	}
+
+
+	/* Non-job Field Labels */	
+	.wheelFieldLabel { float: left; width:60px;  font-weight:900;  color: #FFFFFF; margin-top: 20px;}
+	.dateFieldLabel { float: left; width:100px;  font-weight:900;  color: #FFFFFF; margin-top: 20px;}
+	.timeFieldLabel { float: left; width:70px;  font-weight:900;  color: #FFFFFF; margin-top: 20px;}
+	.recipeFieldLabel { float: left; width:320px;  font-weight:900;  color: #FFFFFF; margin-top: 20px;}
+	.loadedWheelsFieldShort { float: left; width:150px;  font-weight:900;  color: #FFFFFF;}
+	.loadedWheelsFieldShort2 { float: left; width:100px;  font-weight:900;  color: #FFFFFF;}
+	.loadedWheelsFieldLong { float: left; width:400px;  font-weight:900;  color: #FFFFFF;}
+
+	/* Job Feild Label Container */	
+	.jobFieldLabelContainer { float: left; width:450px; height:40px; margin-top: 5px;}
+	.jobFieldLabel { float: left; width:150px;  font-weight:900;  color: #FFFFFF;}
+	.biasFieldLabel { float: left; width:150px;  font-weight:900;  color: #FFFFFF;}
+
+	/* Job Feild Value Container */	
+	.jobFieldValueContainer { float: left; width:450px; height:20px;}
+	.jobFieldValue { float: left; width:150px;  font-weight:900; }
+
+	/* Values for loaded wheel params  */	
+	.wheelFieldValue { float: left; width:60px; font-weight:900; }	
+	.dateFieldValue { float: left; width:100px; font-weight:900; }	
+	.timeFieldValue { float: left; width:70px; font-weight:900; }	
+	.recipeFieldValue { float: left; width:320px; font-weight:900; }	
+	.loadedWheelsFieldValueShort { float: left; width:150px; font-weight:900; }	
+	.loadedWheelsFieldValueLong { float: left; width:400px; font-weight:900;}
+	.loadedWheelsFieldValueShort2 { float: left; width:150px; font-weight:900; }	
+
+
+	/* Line Indicators  */
+
+	.lineIndicatorDark { background-color:#f6d9f9; }
+	.lineIndicatorLight { background-color:#d9f9f2; }
+
+	.pageMessageFooter {font-family: Arial, Helvetica, sans-serif; font-size:20; font-weight:30; color:black; margin-top:10px; margin-bottom:0px}
+
+	/* Wheel  */
+
+	.detectingWheel { float: left; width:300px; height:30px; font-size:25; font-weight:900; background-color:#626172;}
+	.detectingWheelIcon { float: left; width:50px; padding-left: 5px; font-weight:900; background-color:#FFFFFF;}
+
+	/* Wheel Jobs  */
+
+	.wheelIdLabel { float: left; width:450px; height:30px; font-size:25; font-weight:900; background-color:#626172;}
+
+	#ScannerInputBox { 
+	float: left;
+	width: 450px;
+	background-color: #626172;	
+	}
+
+
+	.JobLabel { 
+		float: left;
+		height: 30px;
+		width: 125px;
+		font-size:25; 
+		font-weight:200; 
+		background-color:#626172;
+	}
+
+	.JobLabelLong { 
+		float: left;
+		height: 30px;
+		width: 200px;
+		font-size:25; 
+		font-weight:200; 
+		background-color:#626172;
+	}
+
+
+	#Job1 { 
+		float: left;
+		height: 30px;
+		width: 325px;
+	}
+
+	#Job2 { 
+		float: left;
+		height: 30px;
+		width: 325px;
+	}
+
+	#Job3 { 
+		float: left;
+		height: 30px;
+		width: 325px;
+	}	
+
+	#DoneCommandBox { 
+		float: left;
+		height: 30px;
+		width: 200px;
+		font-size:25; 
+		font-weight:200; 
+		background-color:#626172;
+	}	
+
+
+
+
+	#LmsInputBox { 
+	float: left;
+	width: 600px;
+	background-color: #626172;	
+	}
+
+
+	.LmsLabel { 
+		float: left;
+		height: 30px;
+		width: 200px;
+		font-size:15; 
+		font-weight:100; 
+		background-color:#626172;
+		text-align: center;
+		color:#FFFFFF;
+	}
+
+
+	.LmsInput { 
+		float: left;
+		height: 30px;
+		width: 300px;
+	}
+
+
+	.LmsDone { 
+		float: left;
+		height: 30px;
+		width: 200px;
+		font-size:10px; 
+		background-color:#626172;
+		text-align: center;
+	}	
+
+
+

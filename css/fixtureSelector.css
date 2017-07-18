@@ -1,0 +1,116 @@
+            #modal {
+	      float: left;
+            }
+
+            #content {
+                background:white;
+            }
+
+            #close {
+                position:relative;
+                width:24px;
+                height:27px;
+                top:0px;
+                right:-10px;
+                font-size: 200%;
+                font-weight: bold;
+                color: black;                
+                background:white;
+                border: 5px solid black;
+                text-decoration: none;
+                padding: 5px;                        
+            }
+	    
+            #widgetContainer {
+                position:fixed;
+                float:left;
+                top:10px;
+                left:10px;   
+                border: 5px solid black;                        
+            }	    
+
+            #position1 {
+                position:absolute;
+                width:90px;
+                height:27px;
+                top:90px;
+                left:205px;
+                font-size: 150%;
+                font-weight: bold;
+                color: blue;
+            }
+
+            #position2 {
+                position:absolute;
+                width:90px;
+                height:27px;
+                top:160px;
+                left:330px;
+                font-size: 150%;
+                font-weight: bold;
+                color: blue;
+            }	    
+
+            #position3 {
+                position:absolute;
+                width:90px;
+                height:27px;
+                top:310px;
+                left:330px;
+                font-size: 150%;
+                font-weight: bold;
+                color: blue;
+            }	    
+
+            #position4 {
+                position:absolute;
+                width:90px;
+                height:27px;
+                top:390px;
+                left:205px;
+                font-size: 150%;
+                font-weight: bold;
+                color: blue;
+            }	    
+
+            #position5 {
+                position:absolute;
+                width:90px;
+                height:27px;
+                top:305px;
+                left:80px;
+                font-size: 150%;
+                font-weight: bold;
+                color: blue;
+            }	    
+
+            #position6 {
+                position:absolute;
+                width:90px;
+                height:27px;
+                top:160px;
+                left:80px;
+                font-size: 150%;
+                font-weight: bold;
+                color: blue;
+            }	    
+
+            .positionFixtureName {
+                float: left;
+                width:90px;
+                height:27px;
+            }       
+
+            .positionJob {
+                float: left;
+                width:90px;
+                height:27px;
+                font-size: 75%;                
+            }       
+
+            .positionJob {
+                float: left;
+                width:90px;
+                height:27px;
+                font-size: 75%;                
+            }       
